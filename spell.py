@@ -34,7 +34,6 @@ def spellCheck():
                 return render_template('spellcheck.html', contentList=fileContentList, typoList=misspelledStr, totalCount=wordTotal, typoCount=wordTypo, typoPercent=percTypo)
         except:
             raise
-            
     else: 
         pass
     return
