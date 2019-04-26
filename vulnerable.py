@@ -14,7 +14,7 @@ def login():
     else:
         pass = 1
     if(pass):
-        //give root privelages to user
+        /*give root privelages to user*/
     return
     
     
