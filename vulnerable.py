@@ -14,6 +14,7 @@ def register():
     return
 
 def login():
+    pass = 0
     buffer=[None]*10
     tempBuff=[None]*10
     buffer = input("Enter a password between 1 and 20 characters long")
