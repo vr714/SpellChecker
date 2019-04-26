@@ -4,6 +4,21 @@ from spellchecker import *
 from tabledef import *
 import easygui
 
+def login():
+    buffer=[None]*10
+    tempBuff=[None]*10
+    buffer = input("Enter username")
+    tempBuff = input("Enter password")
+    if buffer != tempBuff:
+        print("Wrong Password")
+    else:
+        pass = 1
+    if(pass):
+        //give root privelages to user
+    return 0
+    
+    
+
 def spellCheck():
     if "OpenFile" in request.form:
         try:
