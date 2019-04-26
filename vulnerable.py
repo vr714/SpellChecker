@@ -4,6 +4,15 @@ from spellchecker import *
 from tabledef import *
 import easygui
 
+def register():
+    username = input("Enter a username")
+    tmp = input("Enter a password")
+    if tmp != NULL:
+        password = tmp
+    else:
+        print("Password not valid. Type in another password")
+    return
+
 def login():
     buffer=[None]*10
     tempBuff=[None]*10
