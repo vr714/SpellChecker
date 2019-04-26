@@ -15,7 +15,7 @@ def login():
         pass = 1
     if(pass):
         //give root privelages to user
-    return 0
+    return
     
     
 
