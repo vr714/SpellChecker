@@ -20,7 +20,7 @@ def login():
     
 
 def spellCheck():
-    if "OpenFile" in request.form:
+    if "OpenFile" in request.form: 
         try:
             fileType = ".txt"
             fileEnd = "*"+fileType
