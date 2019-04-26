@@ -7,7 +7,7 @@ import easygui
 def login():
     buffer=[None]*10
     tempBuff=[None]*10
-    buffer = input("Enter username")
+    buffer = input("Enter a password between 1 and 20 characters long")
     tempBuff = input("Enter password")
     if buffer != tempBuff:
         print("Wrong Password")
